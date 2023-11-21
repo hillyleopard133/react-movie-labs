@@ -5,6 +5,7 @@ import { useQueries } from "react-query";
 import { getMovie } from "../api/tmdb-api";
 import Spinner from '../components/spinner'
 import AddToPlaylistIcon from '../components/cardIcons/addToPlaylist'
+import RemoveFromPlaylist from '../components/cardIcons/removeFromPlaylist'
 
 const MustWatchMoviesPage = () => {
   const {playlist: movieIds } = useContext(MoviesContext);
